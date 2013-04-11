@@ -44,5 +44,4 @@ freshbooks.call('invoice.create',
 ## Docs
 http://developers.freshbooks.com/
 
-Enjoy!
-- thallium205
+Enjoy! - thallium205
