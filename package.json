@@ -1,0 +1,20 @@
+{
+  "name": "freshbooks-node",
+  "version": "0.0.1",
+  "dependencies": {
+    "request": "*",
+	"easyxml": "*",
+	"xml2js": "*"
+  },
+  "description": "Freshbooks Node Library",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thallium205/freshbooks-node.git"
+  },
+  "keywords": [
+    "freshbooks", "node", "nodejs"
+  ],
+  "author": "thallium205 <https://github.com/thallium205>",
+  "license": "MIT"
+}
