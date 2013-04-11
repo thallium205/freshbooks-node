@@ -1,4 +1,7 @@
-# freshbooks-node - A lightweight node.js library for Freshbooks
+# freshbooks-node
+ ===============
+ A simple node library for Freshbooks that does not require libxmljs
+
 ## Install
 <pre>
   npm install freshbooks-node
@@ -27,7 +30,7 @@ freshbooks.call('invoice.create',
         if (err) {
             console.error(err);
         }
-        console.log(JSON.stringify(json));
+        console.log(JSON.stringify(json, null, 4));
     });
 ```
 ### Response
@@ -42,3 +45,4 @@ freshbooks.call('invoice.create',
 http://developers.freshbooks.com/
 
 Enjoy!
+- thallium205
