@@ -1,5 +1,4 @@
 # freshbooks-node
- ===============
  A simple node library for Freshbooks that does not require libxmljs
 
 ## Install
@@ -44,4 +43,4 @@ freshbooks.call('invoice.create',
 ## Docs
 http://developers.freshbooks.com/
 
-Enjoy! - thallium205
+Enjoy! - thallium205 <https://github.com/thallium205>
