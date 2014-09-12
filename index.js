@@ -1,5 +1,5 @@
 var request = require('request');
-var easyxml = require('Easyxml');
+var easyxml = require('easyxml');
 var xml2js = require('xml2js');
 
 function Freshbooks(account, token, agent, showAttributes) {
