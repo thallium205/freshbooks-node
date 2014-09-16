@@ -14,7 +14,7 @@ Freshbooks.prototype.call = function(method, json, callback) {
     var self = this;
 
     var xml = easyxml.render(json);
-    xml = xml.replace('<request>', '<request method="' + method + '">');
+    xml = xml.replace('<request', '<request method="' + method + '"');
 
     var options = {
         uri: self.url,
